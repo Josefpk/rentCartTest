@@ -1,0 +1,168 @@
+.cardImageAling {
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  // width: 70%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  // @media screen and (max-width: 600px) {
+  //   // margin-left: 5%;
+  //   // margin-right: 5%;
+  //   // padding-left: 50px;
+  //   // padding-bottom: 1px;
+  // }
+
+  mat-card-title {
+    text-align: center;
+    margin: 2% 2%;
+  }
+}
+
+.example-card {
+  border: 1px solid #D3D3D3;
+  width: 240px;
+  margin: 10px 6px;
+  border-radius: 10px;
+  // cursor: pointer;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-height: 330px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+
+.container-card-img {
+  // object-fit: contain;
+  width: 100%;
+  height: 45%;
+  min-height: 157px;
+  position: sticky;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
+
+
+
+.container-desc-card {
+  height: 45%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 20px 5px 20px;
+
+  p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: gray;
+    padding: 0.25em;
+  }
+}
+
+@keyframes example {
+  50%  {background-color:burlywood;}
+
+}
+
+
+
+.reservar {
+
+  animation-name: example;
+  animation-duration: 3s;
+  // animation-iteration-count: infinite;
+
+  // animation: bounce;
+  // // /* referring directly to the animation's @keyframe declaration */
+  // animation-duration: 2s;
+  // /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
+  // flex-direction: row;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  // color: white;
+  background-color: lime;
+  // border-bottom-left-radius: 8px;
+  // border-bottom-right-radius: 8px;
+  border-radius: 8px;
+  height: 32px;
+  // padding-left: 3px;
+  // padding-right: 10px;
+  position: absolute;
+  top: 92%;
+  width: 100%;
+  cursor: pointer;
+
+  p {
+    margin: 5px 0 0 0;
+    ;
+  }
+
+  p:hover {
+    color: white;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-desc-card {
+    height: 85%;
+    width: 65%;
+    padding: 5% 3% 3% 5%;
+
+    p {
+      &.stock {
+        display: none;
+      }
+
+      &.name {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+.mat-card-content {
+  .mfooter {
+    display: block;
+    margin: 0;
+    padding: 10px 10px 5px 23px;
+    border-top: 1px dotted gray;
+
+    p {
+      margin-bottom: 4px;
+      margin-top: 4px;
+      //   color: gray;
+      font-size: 18px - 2;
+    }
+
+
+  }
+}
+
+.typeUsado {
+  color: coral;
+}
+
+.typeNuevo {
+  color: mediumseagreen;
+}

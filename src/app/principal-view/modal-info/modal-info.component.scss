@@ -1,0 +1,101 @@
+.container {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  &-sub:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  &-sub {
+    width: 100%;
+    display: flex;
+
+    @media screen and (max-width: 600px) {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &-specs {
+    &_title {
+      width: 100%;
+      padding: 15px;
+      font-weight: bold;
+    }
+
+    &_value {
+      width: 50%;
+      padding: 15px;
+    }
+  }
+}
+
+
+.fullInfo {
+  width: 82%;
+  margin: 0 9% 0 9%;
+
+  img {
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.mfooter {
+  font-size: 18px;
+  margin: 2% 2%;
+  text-align: center;
+  flex-wrap: wrap;
+
+  div {
+    flex-wrap: wrap;
+  }
+
+  h3 {
+    font-weight: bold;
+    color: darkred;
+  }
+
+  p {
+    color: blue;
+
+  }
+}
+
+.marginInfo {
+  @media screen and (max-width: 600px) {
+    margin: 8% 8%;
+  }
+}
+
+.example-card {
+  box-shadow: none;
+
+  mat-card-title {
+    text-align: center;
+    margin: 2% 2%;
+  }
+}
+
+.description {
+  text-align: center;
+
+  h3 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: monospace;
+    margin: 2% 2%;
+  }
+}

@@ -1,0 +1,99 @@
+.slidesText {
+  width: 80%;
+  height: 100%;
+  margin: 0 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    color: white;
+    padding: 10px;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  p {
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 600px) {
+    color: white;
+    padding: 5px;
+
+    width: 60%;
+    margin: 0 20% 0 20%;
+
+    h1 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 0px !important;
+      padding-bottom: 0px !important;
+    }
+
+    p {
+      color: white;
+      font-size: 12px;
+    }
+  }
+}
+
+.actions {
+  margin-left: 20%;
+  margin-right: 20%;
+
+  // @media screen and (max-width: 600px) {
+  //   display: none !important;
+  // }
+}
+
+.cards {
+  // margin-left: 20%;
+  // margin-right: 20%;
+
+  // @media screen and (max-width: 600px) {
+  //   display: none !important;
+  // }
+}
+
+.orderBy {
+  width: 120px;
+
+  .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white !important;
+  }
+
+
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: 0.25em 0.25em 0 .25em !important;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: white;
+}
+
+::ng-deep .carousel {
+  @media screen and (max-width: 600px) {
+    height: 30% !important;
+  }
+}
+
+::ng-deep .carousel-list {
+  @media screen and (max-width: 600px) {
+    height: 100% !important;
+
+  }
+}
+
+::ng-deep .carousel-slide {
+  @media screen and (max-width: 600px) {
+    height: 100% !important;
+    padding-bottom: 0 !important;
+  }
+}

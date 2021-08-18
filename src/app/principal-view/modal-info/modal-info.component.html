@@ -1,0 +1,51 @@
+<div>
+  <mat-card class="example-card">
+    <mat-card-title> {{data.name}} - {{data.model}} </mat-card-title>
+    <div class="fullInfo">
+      <img src="{{data.largPhoto}}">
+    </div>
+    <mat-card-content>
+      <div class="description">
+        <h3>
+          {{data.description}}
+        </h3>
+      </div>
+      <mat-card-footer class="mfooter">
+        <div fxLayout="row" fxLayoutAlign="space-around center">
+          <div class="marginInfo" *ngIf="data.type">
+            <h3>Tipo</h3>
+            <p>{{data.type}}</p>
+          </div>
+          <div class="marginInfo" *ngIf="data.price">
+            <h3>Precio</h3>
+            <p>{{data.price}}</p>
+          </div>
+          <div class="marginInfo" *ngIf="data.price">
+            <h3>Año</h3>
+            <p>{{data.year}}</p>
+          </div>
+          <div class="marginInfo" *ngIf="data.year">
+            <h3>Marca</h3>
+            <p>{{data.brand}}</p>
+          </div>
+        </div>
+
+      </mat-card-footer>
+    </mat-card-content>
+  </mat-card>
+
+  <div class="container">
+    <h1>
+      Especificaciones Técnicas
+    </h1>
+
+    <div class="container-sub" *ngFor="let spec of data.specs">
+      <div class="container-specs_title">
+        {{spec.key}}
+      </div>
+      <div class="container-specs_value">
+        {{spec.value}}
+      </div>
+    </div>
+  </div>
+</div>

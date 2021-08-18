@@ -1,0 +1,33 @@
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<div class="cardImageAling">
+  <div *ngFor="let cars of mockDataCars; let i = index ">
+    <mat-card class="example-card" >
+      <div class="container-card-img " (click)="openInfoCar(cars)">
+        <img src="{{cars.smallPhoto}}">
+      </div>
+      <mat-card-title> {{cars.name}} - {{cars.model}} </mat-card-title>
+      <mat-card-content>
+        <div class="container-desc-card">
+          <p>
+            {{cars.description}}
+          </p>
+        </div>
+        <mat-card-footer class="mfooter">
+          <p [ngClass]="cars.type === 'Nuevo' ? 'typeNuevo' : 'typeUsado'"> {{cars.type}}</p>
+          <p>Precio: {{cars.price}}</p>
+          <p>Marca: {{cars.brand}}</p>
+
+        </mat-card-footer>
+      </mat-card-content>
+      <div class="reservar" (click)="openAlert()" >
+        <p>Reservar ahora</p>
+      </div>
+      </mat-card>
+  </div>
+</div>
