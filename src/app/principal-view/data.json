@@ -1,6 +1,6 @@
 { "mockDataCars" : [
         {
-      "smallPhoto": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "smallPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDX7heFzBLyQKbcmLc2PqjQeIPQKO9AygrIA&usqp=CAU",
       "largPhoto": "https://ips-invite.iperceptions.com/Invitations/invitationsJS/127/s127032/images/ford_image.jpg",
       "model": "2021",
       "year": "2021",
@@ -27,8 +27,8 @@
             ]
         },
         {
-      "smallPhoto": "https://material.angular.io/assets/img/examples/shiba2.jpg",
-      "largPhoto": "https://www.ford.com.co/content/dam/Ford/website-assets/latam/co/'name'plate/explorer-st/2021/overview/gallery-trigger/overlay/fco-explorerst-gal-co-pilot.jpg",
+      "smallPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDX7heFzBLyQKbcmLc2PqjQeIPQKO9AygrIA&usqp=CAU",
+      "largPhoto": "https://www.ford.com.co/content/dam/Ford/website-assets/latam/co/nameplate/explorer-st/2021/overview/gallery-trigger/overlay/fco-explorerst-gal-co-pilot.jpg",
       "model": "2021",
       "year": "2021",
       "brand": "FORD",
@@ -54,7 +54,7 @@
             ]
         },
         {
-      "smallPhoto": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "smallPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDX7heFzBLyQKbcmLc2PqjQeIPQKO9AygrIA&usqp=CAU",
       "largPhoto": "https://www.mazda.com.co/globalassets/01_global/imagenes-comparador/mazda-cx-30/01_prime_mt.png",
       "model": "2021",
       "year": "2021",
@@ -81,7 +81,7 @@
             ]
         },
         {
-      "smallPhoto": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "smallPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDX7heFzBLyQKbcmLc2PqjQeIPQKO9AygrIA&usqp=CAU",
       "largPhoto": "https://http2.mlstatic.com/D_NQ_NP_828412-MCO47113860974_082021-O.webp",
       "model": "2017",
       "year": "2021",
@@ -108,7 +108,7 @@
             ]
         },
         {
-      "smallPhoto": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "smallPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDX7heFzBLyQKbcmLc2PqjQeIPQKO9AygrIA&usqp=CAU",
       "largPhoto": "https://cdn.group.renault.com/ren/co/vehicles/duster/hjd/galeria/duster-robusto.jpg.ximg.large.webp/ab499f3fd6.webp",
       "model": "2020",
       "year": "2019",
@@ -135,7 +135,7 @@
             ]
         },
         {
-      "smallPhoto": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "smallPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDX7heFzBLyQKbcmLc2PqjQeIPQKO9AygrIA&usqp=CAU",
       "largPhoto": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ford-fiesta-st-edition-8-1601985776.jpg?crop=1.00xw:0.704xh;0,0.149xh&resize=1200:*",
       "model": "2020",
       "year": "2020",
@@ -162,7 +162,7 @@
             ]
         },
         {
-      "smallPhoto": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "smallPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDX7heFzBLyQKbcmLc2PqjQeIPQKO9AygrIA&usqp=CAU",
       "largPhoto": "https://11uk91uj5h62os2u61c0s6o1-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/SUPER-BLANCO-12.jpg",
       "model": "2021",
       "year": "2021",
