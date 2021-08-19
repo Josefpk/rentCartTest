@@ -80,13 +80,14 @@
   background-color: lime;
   border-radius: 8px;
   height: 32px;
-  position: absolute;
-  top: 92%;
-  width: 100%;
+  // position: absolute;
+  // top: 92%;
+  width: 96%;
+  margin: 2%;
   cursor: pointer;
 
   p {
-    margin: 5px 0 0 0;
+    padding-top: 5px;
     ;
   }
 

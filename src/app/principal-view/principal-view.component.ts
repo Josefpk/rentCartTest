@@ -175,6 +175,7 @@ export class PrincipalViewComponent implements OnInit {
   ngOnInit(): void {
     this.getData();
     this.copyMockFilter = Array.from(this.mockDataCars);
+
   }
 
   /**
@@ -182,7 +183,6 @@ export class PrincipalViewComponent implements OnInit {
    */
   getData(){
     this.serviceData.serviceMock().subscribe((res: any) => {
-      console.log(res);
       if(res){
         this.mockDataCars = res;
       }
@@ -208,16 +208,11 @@ export class PrincipalViewComponent implements OnInit {
    * Ordenar cards por marca
    * @memberof PrincipalViewComponent
    */
-  orderByBraand(data: any) {
-    if (data && data.value === 'brand') {
+  orderByValue(data: any) {
+    const value = data.value;
+    if (data &&  (value != 'brand' || value != 'name')){
       this.mockDataCars = this.mockDataCars.sort((a: any, b: any) => {
-        return a.brand > b.brand ? 1 : a.brand < b.brand ? -1 : 0
-      });
-    } else if (data.value === 'name') {
-      this.mockDataCars = this.mockDataCars.sort((a: any, b: any) => {
-        if (a.name > b.name) return 1;
-        if (a.name < b.name) return -1;
-        return 0;
+        return a[value] > b[value] ? 1 : a[value] < b[value] ? -1 : 0
       });
     }
   }

@@ -34,7 +34,7 @@
   <div>
     <mat-form-field appearance="fill" class="orderBy">
       <mat-label>Ordena por:</mat-label>
-      <mat-select (selectionChange)="orderByBraand($event.value)">
+      <mat-select (selectionChange)="orderByValue($event.value)">
         <mat-option *ngFor="let item of orderBy" [value]="item">
           {{item.viewValue}}
         </mat-option>
