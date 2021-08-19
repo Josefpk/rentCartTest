@@ -1,10 +1,10 @@
-Como clonar y compilar repositorio 3 pasos
+# Como clonar y compilar repositorio 3 pasos
 En el terminal: 
 1er paso: `git clone https://github.com/Josefpk/rentCartTest.git`
 2do paso: `npm install`
 3er paso: `ng serve`
 
-# CarsRentOmniLatam
+## CarsRentOmniLatam
 
 Este proyecto fue generado utilizando [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 npm install -g @angular/cli para la intalacion de nuestro angular
