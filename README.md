@@ -1,5 +1,6 @@
 # Como clonar y compilar repositorio 3 pasos
 En el terminal: 
+
 1er paso: `git clone https://github.com/Josefpk/rentCartTest.git`
 
 2do paso: `npm install`
